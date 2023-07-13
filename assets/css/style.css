@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: Poppins, sans-serif;
+}
+
+.divTable {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+.divTable .divHead {
+  height: 70px;
+  background: #fcfbfb !important;
+  border-radius: 10px;
+  width: auto;
+  display: flex;
+  margin-bottom: 11px !important;
+  text-align: left;
+  padding-left: 17px !important;
+  padding-right: 17px;
+}
+.divTable .divHead .status-heading {
+  padding-left: 11px;
+}
+.divTable .divRow {
+  height: 70px;
+  background: #fcfbfb !important;
+  border-radius: 10px;
+  width: auto;
+  display: flex;
+  margin-bottom: 11px !important;
+  padding-left: 17px !important;
+  padding-right: 17px;
+}
+.divTable .divCellR1 {
+  width: 5%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #4a5654;
+  padding-top: 16.84px;
+  text-align: left;
+}
+.divTable .divCellR2 {
+  width: 16%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #4a5654;
+  padding-top: 16.84px;
+  text-align: left;
+}
+.divTable .divCellR3 {
+  width: 6%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #4a5654;
+  padding-top: 16.84px;
+  text-align: left;
+}
+.divTable .divCellR4 {
+  width: 25%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #4a5654;
+  padding-top: 16.84px;
+  text-align: left;
+}
+.divTable .divCellR5 {
+  width: 13%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #4a5654;
+  padding-top: 16.84px;
+  text-align: left;
+}
+.divTable .divCellR5 .statusOngoing {
+  padding: 4px 10px;
+  background: rgba(254, 161, 76, 0.09);
+  border-radius: 7px;
+}
+.divTable .divCellR5 .statusCompleted {
+  padding: 4px 10px;
+  background: rgba(0, 199, 158, 0.08);
+  border-radius: 7px;
+}
+.divTable .divCellR5 .statusIncompleted {
+  padding: 4px 10px;
+  background: rgba(232, 73, 39, 0.08);
+  border-radius: 7px;
+}
+.divTable .divCellR6 {
+  width: 12%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #4a5654;
+  padding-top: 16.84px;
+  text-align: left;
+}
+.divTable .divCellR7 {
+  width: 8%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #4a5654;
+  padding-top: 16.84px;
+  text-align: left;
+}
+.divTable .divCellR8 {
+  width: 15%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #4a5654;
+  padding-top: 16.84px;
+  text-align: left;
+}
+
+.victoryDay-campaign .campaign,
+.eidFestival .campaign {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  text-align: left;
+  text-transform: capitalize;
+  color: #00c79e;
+}
+
+.star {
+  display: flex;
+}
+.star-img {
+  background: #ffa24d;
+  border-radius: 1px;
+}
+.star .rating {
+  width: 53px;
+  height: 29px;
+  left: 166px;
+  top: 44px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffa24d;
+}
+
+.campaign-items .heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: left;
+  color: #011519;
+  margin-bottom: 15px;
+}
+.campaign-items .desc {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 172.9%;
+  text-align: justify;
+  color: #4a5654;
+}
+
+.reviews_views {
+  display: flex;
+}
+.reviews_views .reviews {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 85%;
+  text-transform: capitalize;
+  color: #4a5654;
+  margin-top: 120px;
+}
+.reviews_views .views {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 85%;
+  text-transform: capitalize;
+  color: #00c79e;
+  margin-left: 377px;
+  margin-top: 3px;
+}/*# sourceMappingURL=style.css.map */
